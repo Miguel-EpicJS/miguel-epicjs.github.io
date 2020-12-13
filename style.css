@@ -6,9 +6,36 @@
     box-sizing: border-box;
 }
 .container{
-    width: 60%;
+    width: 100%;
     text-align: center;
-    margin: 5rem auto;
+    margin:auto;
+    overflow-y: hidden;
 }
 
+.title{
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+
 /* --GENERAL-- */
+
+/* SLIDE SHOW */
+
+.slide-show{
+    position: relative;
+}
+.slide-show .title{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+}
+.slides{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+/* --SLIDE SHOW-- */
