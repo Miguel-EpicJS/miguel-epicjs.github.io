@@ -53,7 +53,7 @@ html{
 .slide-show .title-bg-black-lg{
     position: absolute;
     width: 100%;
-    transform: translate(0, 75%);
+    transform: translate(0, 200%);
     margin: auto;
     padding: 5rem;
 }
