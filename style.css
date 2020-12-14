@@ -17,6 +17,27 @@
     color: #ffffff;
     background: rgba(0,0,0, .7);
 }
+.icon{
+    font-size: 2em;
+}
+
+.flex{
+    display: flex;
+}
+.flex-row{
+    flex-direction: row;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
 
 
 /* --GENERAL-- */
