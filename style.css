@@ -5,11 +5,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 .container{
     width: 100%;
     text-align: center;
     margin:auto;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 .title-bg-black-lg{
