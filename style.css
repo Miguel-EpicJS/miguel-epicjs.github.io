@@ -35,9 +35,13 @@ html{
     align-items: center;
 }
 
-.justify-space-between{
+.justify-content-space-between{
     justify-content: space-between;
 }
+.justify-content-center{
+    justify-content: center;
+}
+
 .cursor-pointer{
     cursor: pointer;
 }
@@ -66,3 +70,18 @@ html{
 }
 
 /* --SLIDE SHOW-- */
+
+/* DESCRIPTION-MODEL-CARDS */
+
+.desc-card .card-right h3{
+    font-size: 2rem;
+    color: rgb(63, 192, 251);
+    margin: 30px;
+}
+.desc-card .card-right p{
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+/* --DESCRIPTION-MODEL-CARDS-- */
